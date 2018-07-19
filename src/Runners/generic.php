@@ -33,6 +33,7 @@ $checkerArray = [
     'checkstyle' => 'CheckstyleLoader',
     'clover' => 'CloverLoader',
     'codeclimate' => 'CodeClimateLoader',
+    'eslint' => 'EslintLoader',
     'humbug' => 'HumbugLoader',
     'infecton' => 'InfectionLoader',
     'jacoco' => 'JacocoReport',

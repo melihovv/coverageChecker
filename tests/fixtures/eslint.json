@@ -1,0 +1,73 @@
+[
+  {
+    "filePath": "/gulp/tasks/build.js",
+    "messages": [
+      {
+        "ruleId": "quotes",
+        "severity": 2,
+        "message": "Strings must use singlequote.",
+        "line": 1,
+        "column": 20,
+        "nodeType": "Literal",
+        "source": "var gulp = require(\"gulp\");",
+        "endLine": 1,
+        "endColumn": 26,
+        "fix": {
+          "range": [
+            19,
+            25
+          ],
+          "text": "'gulp'"
+        }
+      }
+    ],
+    "errorCount": 1,
+    "warningCount": 0,
+    "fixableErrorCount": 1,
+    "fixableWarningCount": 0,
+    "source": "var gulp = require(\"gulp\");"
+  },
+  {
+    "filePath": "/webpack/prod.config.js",
+    "messages": [
+      {
+        "ruleId": "linebreak-style",
+        "severity": 2,
+        "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+        "line": 1,
+        "column": 6,
+        "nodeType": "Program",
+        "source": "')",
+        "fix": {
+          "range": [
+            2112,
+            2114
+          ],
+          "text": "\n"
+        }
+      },
+      {
+        "ruleId": "eol-last",
+        "severity": 2,
+        "message": "Newline required at end of file but not found.",
+        "line": 2,
+        "column": 28,
+        "nodeType": "Program",
+        "source": "});",
+        "messageId": "missing",
+        "fix": {
+          "range": [
+            507,
+            507
+          ],
+          "text": "\n"
+        }
+      }
+    ],
+    "errorCount": 2,
+    "warningCount": 0,
+    "fixableErrorCount": 2,
+    "fixableWarningCount": 0,
+    "source": "const path = require('path');\nconst gulp = require('gulp')"
+  }
+]
